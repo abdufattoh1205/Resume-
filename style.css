@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+}
+
+
+.whole-wrap{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* //left */
+
+.left{
+    height: 125% !important;
+    width: 30%;
+    background: #00a4c0;
+}
+
+.right{
+    width:70%;
+}
+
+.img{
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    position: relative;
+    width: 80%;
+    border-radius: 50%;
+}
+
+.white-line{
+    background: #ffff;
+    width: 30px;
+    margin-top: 50px;
+    height: 5px;
+
+}
+
+.year{
+    font-size: larger;
+}
+
+.education-white-line{
+    margin: 5px 0px;
+    width: 30px;
+    height: 5px;
+    background: #fff;
+}
+
+/* //left */
+
+/* right */
+
+
+.right h1{
+    color: #404040;
+    font-size: 80px;
+}
+
+.information{
+    color: #242424;
+    margin-top: 40px;
+}
+
+.blue-line{
+    background: #00a4c0;
+    width: 30px;
+    margin-top: 30px;
+    height: 5px;
+}
+
+
+.summary{
+    color: #00a4c0;
+}
+
+.summary p{
+    color: black;
+}
+
+.experience h3{
+    color:#00a4c0;
+}
+
+.language h3{
+    color:#00a4c0;
+}
+
+.en-rus{
+    padding-right: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.en{
+    width: 40%;
+} 
+
+.degree{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rus{
+    width: 40%;
+}
+
+.grey-line{
+    background: rgb(183, 178, 178);
+    margin-top: 0px;
+}
+
+
+#degree-line{
+    width: 35px;
+    margin-top: 10px;
+}
+
+.lan-stage{
+    letter-spacing: 1px;
+}
+
+/* right */
